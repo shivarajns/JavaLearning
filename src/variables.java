@@ -7,6 +7,6 @@ public class variables {
         double Height = 5.11;
         boolean isStudent = true;
 
-        System.out.println(Name + " is an " + Age + " year old boy " + "his height is " + Height + "and he is an student: " + isStudent);
+        System.out.println(Name + " is an " + Age + " year old boy " + "his height is" + Height + "and he is an student" + isStudent);
     }
 }
