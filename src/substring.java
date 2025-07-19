@@ -5,10 +5,20 @@ public class substring {
 
         System.out.print("Enter your mail: ");
         String email = scnr.nextLine();
-        String name = email.substring(0, email.indexOf("@"));
-        String domain=email.substring((email.indexOf("@")+1));
 
-        System.out.println("Your name is: " + name);
-        System.out.println("Your domain is: "+domain);
+        if (email.contains("@")){
+            String name = email.substring(0, email.indexOf("@"));
+            String domain=email.substring((email.indexOf("@")+1));
+
+            System.out.println("Your name is: " + name);
+            System.out.println("Your domain is: "+domain);
+        }
+        else{
+            System.out.println("Invalid email, enter correct mail eg: yourname@email.com");
+        }
+
+
+
+        scnr.close();
     }
 }
