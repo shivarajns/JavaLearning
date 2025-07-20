@@ -7,7 +7,6 @@ public class break_And_continue {
             System.out.print(i+" ");
         }
 
-            System.out.println("--------(Stoped at condition i=5)");
         //continue
 
         for(int i=0;i<=10;i++){
@@ -16,6 +15,5 @@ public class break_And_continue {
             }
             System.out.print(i+" ");
         }
-        System.out.println("------(Skipped i=5 th iteration)");
     }
 }
