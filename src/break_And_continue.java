@@ -5,6 +5,7 @@ public class break_And_continue {
                 break;
             }
             System.out.print(i+" ");
+            System.out.println("--------------Stoped at i=5");
         }
 
         //continue
@@ -14,6 +15,7 @@ public class break_And_continue {
                 continue;
             }
             System.out.print(i+" ");
+            System.out.println("--------------skipped at i=5 th iteration");
         }
     }
 }
